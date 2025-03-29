@@ -1,0 +1,205 @@
+/* 모달 기본 스타일 */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-50px); /* 왼쪽에서 시작 */
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0); /* 원래 위치로 이동 */
+        opacity: 1;
+    }
+}
+
+.modal-enter {
+    animation: slide-in 0.4s ease-out;
+}
+
+/* 모달 내용 */
+.modal-content {
+    overflow-wrap: break-word;
+    /* 긴 단어가 넘치지 않도록 줄 바꿈 */
+    word-wrap: break-word;
+    /* 긴 단어가 넘치지 않도록 줄 바꿈 */
+    white-space: normal;
+    /* 텍스트 자동 줄 바꿈 */
+    /* white-space: normal; */
+    overflow-x: hidden;
+    background-color: rgb(234, 238, 173);
+    margin: 15% auto;
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+    min-height: 75%;
+    max-height: 75%;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.modal-content div {
+    overflow-wrap: break-word;
+    /* 긴 단어가 넘치지 않도록 줄 바꿈 */
+    word-wrap: break-word;
+    /* 긴 단어가 넘치지 않도록 줄 바꿈 */
+    white-space: normal;
+    /* 텍스트 자동 줄 바꿈 */
+    /* white-space: normal; */
+    overflow-x: hidden;
+
+}
+
+/* 닫기 버튼 */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enhance-button {
+    .enhance-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+    }
+
+    .enhance-button:focus {
+        outline: none;
+    }
+
+    .enhance-button.clicked {
+        animation: clickEffect 1s ease-out;
+    }
+
+    @keyframes clickEffect {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.2);
+            /* 버튼 확대 */
+        }
+
+        100% {
+            transform: scale(1);
+            /* 버튼 원래 크기로 복귀 */
+        }
+    }
+
+    .enhance-button.clicked::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200%;
+        height: 200%;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        animation: ripple 1s ease-out;
+        transform: translate(-50%, -50%);
+    }
+
+    @keyframes ripple {
+        0% {
+            width: 0;
+            height: 0;
+        }
+
+        100% {
+            width: 200%;
+            height: 200%;
+        }
+    }
+}
+
+/* 연간플래너 몰아보기 친구 플랜 이동 */
+.yearChangeButton {
+    border:none;
+    margin-left: 1px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-left: 50px;
+    width: 40px;
+    height: 25px;
+    font-size: 12px;
+    background-color: rgb(234, 238, 173);
+    border: 1px solid rgb(201, 220, 130);
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+/* 성장 플랜 이동 */
+.planChangeButton {
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 110px;
+    height: 30px;
+    font-size: 13px;
+    background-color: rgb(234, 238, 173);
+    border: 1px solid rgb(201, 220, 130);
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.workOutCompleteButton {
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    color: white;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(34, 139, 34);
+    border: 1px solid rgb(34, 139, 34);
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}

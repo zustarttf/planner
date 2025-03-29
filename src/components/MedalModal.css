@@ -1,0 +1,145 @@
+.medal-promotion-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.medal-promotion-image {
+    width: 50px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3), inset 0 0 5px rgba(255, 255, 255, 0.5);
+    transform: scale(1) perspective(500px) rotateX(10deg);
+    filter: brightness(1.1) contrast(1.2);
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.medal-promotion-button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    color: #007aff;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #c5c5c5, -5px -5px 10px #ffffff;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:active {
+    transform: scale(0.9); /* 클릭 시 버튼 크기 더 많이 축소 */
+}
+
+.medal-attendance-button1 {
+    /* background: beige; */
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-color: rgb(31, 115, 171);
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+}
+.medal-attendance-button2 {
+    /* background: beige; */
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-color: rgb(37, 141, 41);
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 10px 0px;
+    font-size: 17px;
+    color: white;
+    padding: 10px;
+}
+
+.medal-line{
+    border-bottom: solid 1px #ced4da;
+    margin: 10px 0px;
+}
+
+.medal-menu-first-line{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.medal-menu-first-line-button {
+    background-color: beige;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #007aff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0px 5px;
+    font-size: 13px;
+}
+
+.medal-menu-first-line-friend-info-button {
+    background-color: beige;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #007aff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0px 5px;
+    font-size: 13px;
+}
+
+.medal-menu-second-line {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.medal-menu-second-line-event-list-button {
+    background-color: beige;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #007aff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0px 5px;
+    font-size: 13px;
+}
+
+.medal-menu-second-line-event-log-button {
+    background-color: beige;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #007aff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0px 5px;
+    font-size: 13px;
+}
+
+.medal-menu-middle-line{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+

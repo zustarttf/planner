@@ -1,0 +1,101 @@
+.daily-modal-header {
+    display: flex;
+    gap: 10px;
+}
+
+/* display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0px', flexDirection: 'row' */
+.daily-modal-header-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-direction: row;
+}
+
+.daily-modal-header-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* borderBottom: 'solid 1px #ced4da', whiteSpace: 'nowrap', display: 'flex', justifyContent: 'space-between' */
+.dis-complete-data {
+    border-bottom: solid 1px #ced4da;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    width : 275px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.dis-complete-data div:nth-child(1){
+    width : 100px;
+}
+.dis-complete-data div:nth-child(2){
+    width : 140px;
+    margin-left: 12px;
+}
+
+.dis-complete-data div:nth-child(3){
+    width : 40px;
+    text-align: right;
+    min-width: 40px;
+}
+.dis-complete-data div:nth-child(3) > div{
+    color: blue;
+}
+.yes_complete-data {
+    border-bottom: solid 1px #ced4da;
+    white-space:  nowrap;
+    display: flex;
+    width : 275px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.yes_complete-data div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    width : 100px;
+}
+.yes_complete-data div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    width : 140px;
+}
+/* borderBottom: 'solid 1px #ced4da', whiteSpace: 'nowrap', display: 'flex', justifyContent: 'space-between' */
+.grow-plan-data {
+    border-bottom: solid 1px #ced4da;
+    white-space: nowrap;
+    display: flex;
+    /* justify-content: space-between; */
+    gap:5px;
+    width : 275px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.grow-plan-data div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    /* margin-left: 13px; */
+    width : 100px;
+}
+
+.grow-plan-data div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    /* text-align: right; */
+    /* min-width: 40px; */
+    width : 175px;   
+}

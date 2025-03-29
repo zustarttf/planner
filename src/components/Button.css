@@ -1,0 +1,70 @@
+.Button {
+    background-color:  RGB(236,236,236);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.Button_Component{
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Button_POSITIVE {
+    background-color: rgb(83, 171, 208);
+    color: white !important;
+}
+
+.Button_NEGATIVE {
+    background-color: rgb(253, 86, 95);
+    color: white !important;
+}
+
+.Button_MODIFY {
+    background-color: #FFA500;
+    color: white !important;
+}
+
+.Button_CONFIRM {
+    background-color: RGB(164, 198, 222);
+    color: black !important;
+}
+
+.Button_addInputBox {
+    background-color: #edd1d1;
+    font-size: 18px;
+    width: 5px;
+    height: 30px;
+    display: flex;
+    /* flexbox 활성화 */
+    align-items: center;
+    /* 수직 중앙 정렬 */
+    justify-content: center;
+    /* 수평 중앙 정렬 */
+    margin-top: 0.6%;
+    margin-left: 1%;
+}
+
+.Button_removeInputBox {
+    background-color: #dbe2f3;
+    font-size: 18px;
+    width: 5px;
+    height: 30px;
+    display: flex;
+    /* flexbox 활성화 */
+    align-items: center;
+    /* 수직 중앙 정렬 */
+    justify-content: center;
+    /* 수평 중앙 정렬 */
+    margin-top: 0.6%;
+    margin-left: 1%;
+}

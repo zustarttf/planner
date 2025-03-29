@@ -1,0 +1,236 @@
+.modal-content-gubun Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgb(234, 238, 173);
+    border: 1px solid rgb(6, 6, 4);
+    white-space: nowrap;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s, background-color 0.3s;
+}
+
+.lank_plan_header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: solid 1px grey;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.lank_plan_header span {
+    font-size: 20px;
+}
+
+.top-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: content;
+    gap: 10px;
+    margin: 20px 0px 15px 0px;
+    padding: 0px 5px;
+}
+
+.top-button-wrapper div {
+    display: flex;
+    gap: 10px;
+}
+
+.top-button-left button {
+    background-color: rgb(234, 238, 173);
+    width: 42px;
+    color: black;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.top-button-right button {
+    width: 37px;
+    height: 30px;
+}
+.top-button-right button:nth-child(1) {
+    background-color: rgb(234, 238, 173);
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.top-button-right button:nth-child(2) {
+    background-color: rgb(234, 238, 173);
+    color: black;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.top-button-right button:nth-child(3) {
+    background-color: rgb(234, 238, 173);
+    color: #1A1A40;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.lank_plan_modal_wrapper {
+    padding: 0px 5px;
+}
+
+.lank_plan_modal_content {
+    border-bottom: solid 1px #B0B0B0;
+    display: flex;
+    align-items: center;
+}
+
+.lank_plan_modal_left {
+    margin: 5px 8px 5px 0px;
+    min-width: 30px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border: solid 1px black;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.lank_plan_modal_center {
+    flex : 1; /* 가운데 요소가 유동적으로 공간 차지 */
+    text-align: center; /* 내부 텍스트 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 8px 7px;
+    margin-right: 10px;
+}
+
+.lank_plan_modal_center span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.lank_plan_modal_right {
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-width: 35px;
+    height: 25px;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.lank_plan_header_title {
+    width: 135px;
+}
+
+.lank_plan_modal_complete {
+    display: flex;
+    /* margin-left: 10px; */
+    /* gap: 10px; */
+    /* justify-content: end; */
+    /* margin-top: 18px; */
+}
+
+.lank_plan_modal_complete button {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(31, 115, 171);
+    color: white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.gubun_line {
+    border-bottom: 1px dashed grey;
+    margin-top: 18px;
+}
+
+.lank_new_plan_header {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.lank_new_plan_title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+
+.lank_new_plan_header button {
+    width: 67px;
+    height: 30px;
+}
+
+.lank_new_plan_textarea_div {
+
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lank_new_plan_textarea_div textarea {
+    width: 98%;
+    height: 100px;
+    font-size: 18px;
+    white-space: pre-wrap;
+    /* background-color: #fdfdfe; */
+    background-color: rgb(241, 243, 219);
+}
+
+.explanation_wrapper {
+    border: 1px dashed black;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.explanation_wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explanation_wrapper div:nth-child(1) {
+    margin-top: 7px;
+}
+
+.explanation_wrapper div:nth-child(2) {
+    margin-top: 5px;
+}
+
+.explanation_wrapper div:nth-child(3) {
+    margin-top: 1px;
+}
+
+.explanation_wrapper div:nth-child(1) span {
+    border: 1px solid black;
+    padding: 2px 8px;
+}
+
+.new-plan-button-wrapper button{
+    background-color: rgb(234, 238, 173);
+    color: black;   
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}

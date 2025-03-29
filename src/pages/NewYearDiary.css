@@ -1,0 +1,67 @@
+.daiary_calander_title{
+    margin-top:5%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.daiary_wrapper_calander{
+    margin-top:5%;
+    margin-bottom:5%;
+    display: flex;
+    gap : 20px;
+    width : 99%;
+    justify-content: space-between;
+        align-items: center;
+    /* border:none */
+}
+
+.daiary_wrapper_calander .daiary_before_month{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    width : 20%;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    font-size:16px;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.daiary_wrapper_calander .daiary_after_month{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    width : 20%;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    font-size:16px;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.daiary_wrapper_calander .daiary_main_calander{
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 60%;
+    height: 35px;
+    font-size:19px;
+    border: none;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}

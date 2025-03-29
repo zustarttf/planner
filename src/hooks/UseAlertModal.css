@@ -1,0 +1,90 @@
+/* 모달 배경 스타일 */
+.modal-alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정색 배경 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50; /* 다른 UI 요소 위에 모달을 띄우기 위한 z-index */
+}
+
+  /* 모달 창 스타일 */
+.modal-alert-content {
+    font-size: 18px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+    text-align: center;
+    max-width: 270px;
+    width: 100%;
+    z-index: 60; /* 모달 내용을 배경보다 위에 띄우기 위한 z-index */
+}
+
+  /* 확인 버튼 스타일 */
+.modal-alert-button {
+    font-size: 18px;
+    margin-top: 16px;
+    padding: 7px 16px;
+    background-color: #3498db; /* 파란색 배경 */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-alert-button:hover {
+    background-color: #2980b9; /* 버튼 호버 시 색상 변경 */
+}
+
+.modal-alert-content img:nth-child(1) {
+    animation: rotateEffect1 5s infinite
+}
+
+.modal-alert-content img:nth-child(2) {
+    animation: rotateEffect2 3s infinite
+}
+
+.modal-alert-content img:nth-child(3) {
+    animation: rotateEffect3 4s infinite
+}
+
+/* 회전 + 투명도 변화 */
+@keyframes rotateEffect1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateEffect2 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateEffect3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

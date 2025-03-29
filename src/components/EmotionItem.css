@@ -1,0 +1,117 @@
+.EmotionItem {
+    /* background-color: rgb(236, 236, 236); */
+    /* padding :20px; */
+    /* box-shadow: rgb(100, 100, 100, 0.9) 0px 0px 29px 0px;; */
+    border-radius: pointer;
+    text-align: center;
+
+}
+
+.EmotionItem .emotion_img {
+    width: 100%;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    /* 클릭 가능한 커서 스타일 */
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+    border-radius: 15%;
+}
+
+
+.EmotionItem_on_0 .emotion_img {
+    position: relative;
+    border-radius: 10px; /* 둥근 모서리 */
+    background: linear-gradient(135deg, rgba(150, 150, 150, 0.8), rgba(150, 150, 150, 0.6)); /* 더 진한 회색 계열 그라데이션 */
+    box-shadow: 
+        0 0 5px 2px rgba(150, 150, 150, 0.5), /* 첫 번째 레이어 */
+        0 0 15px 8px rgba(150, 150, 150, 0.4), /* 두 번째 레이어 */
+        0 0 30px 15px rgba(150, 150, 150, 0.3); /* 세 번째 레이어 */
+    overflow: hidden; /* 내용이 둥근 모서리를 넘지 않도록 설정 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+.EmotionItem_on_1 .emotion_img {
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(253, 86, 95, 0.8), rgba(253, 86, 95, 0.6));
+    box-shadow: 0 0 5px 2px rgba(253, 86, 95, 0.5),
+        /* 첫 번째 레이어: 더 얇게 */
+        0 0 15px 8px rgba(253, 86, 95, 0.3),
+        /* 두 번째 레이어: 두께 줄임 */
+        0 0 30px 15px rgba(253, 86, 95, 0.2);
+    /* 세 번째 레이어: 번짐 범위 축소 */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.EmotionItem_on_2 .emotion_img {
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(255, 140, 0, 0.8), rgba(255, 165, 0, 0.6));
+    box-shadow: 0 0 5px 2px rgba(255, 140, 0, 0.5),
+        0 0 15px 8px rgba(255, 140, 0, 0.3),
+        0 0 30px 15px rgba(255, 140, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.EmotionItem_on_3 .emotion_img {
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(253, 206, 23, 0.8), rgba(253, 206, 23, 0.6));
+    box-shadow: 0 0 5px 2px rgba(253, 206, 23, 0.5),
+        0 0 15px 8px rgba(253, 206, 23, 0.3),
+        0 0 30px 15px rgba(253, 206, 23, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.EmotionItem_on_4 .emotion_img {
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(180, 241, 180, 0.9), rgba(180, 241, 180, 0.7));
+    box-shadow: 0 0 5px 2px rgba(180, 241, 180, 0.7),
+        0 0 15px 8px rgba(180, 241, 180, 0.5),
+        0 0 30px 15px rgba(180, 241, 180, 0.4);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.EmotionItem_on_5 .emotion_img {
+    position: relative;
+    border-radius: 10px;
+    /* 기존 모서리 반경 유지 */
+    background: linear-gradient(135deg, rgba(135, 206, 250, 0.95), rgba(173, 216, 230, 0.8));
+    /* 밝은 하늘색 */
+    box-shadow: 0 0 8px 4px rgba(135, 206, 250, 0.9),
+        0 0 25px 12px rgba(173, 216, 230, 0.7),
+        0 0 40px 22px rgba(240, 248, 255, 0.6);
+    /* 추가 밝기 */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* .EmotionItem_on_6 .emotion_img {
+    position: relative;
+    border-radius: 10px; 
+    background: linear-gradient(135deg, rgba(0, 0, 128, 0.95), rgba(25, 25, 112, 0.8)); 
+    box-shadow: 0 0 8px 4px rgba(0, 0, 139, 0.9), 
+                0 0 25px 12px rgba(25, 25, 112, 0.7), 
+                0 0 40px 22px rgba(72, 61, 139, 0.6); 
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+*/
+.EmotionItem_on_6 .emotion_img {
+    position: relative;
+    border-radius: 10px;
+    /* 기존 모서리 반경 유지 */
+    background: linear-gradient(135deg, rgba(138, 43, 226, 0.95), rgba(147, 112, 219, 0.8));
+    /* 진한 보라색과 라벤더색 그라데이션 */
+    box-shadow: 0 0 8px 4px rgba(138, 43, 226, 0.9),
+        0 0 25px 12px rgba(147, 112, 219, 0.7),
+        0 0 40px 22px rgba(216, 191, 216, 0.6);
+    /* 보라색 계열의 부드러운 빛 효과 */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

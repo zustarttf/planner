@@ -1,0 +1,45 @@
+.Header {
+    display: flex;
+    align-items: center;
+
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+/* left center right 모두 flex 속성을 주기 위해서 */
+.Header>div {
+    display: flex;
+    align-items: center;
+}
+
+.Header button {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    /* 클릭 가능한 커서 스타일 */
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.Header .header_left {
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.Header .header_center {
+    width: 50%;
+    font-size: 25px;
+    justify-content: center;
+
+}
+
+.Header .header_right {
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.jjang_son {
+    width: 150px;
+    height: 100px;
+    margin: 0px 10px;
+    border-radius: 20px;
+
+}

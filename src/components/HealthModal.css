@@ -1,0 +1,91 @@
+.health-header {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ced4da;
+}
+
+.health-header-title {
+    /* margin-right: 40px; */
+    display: flex;
+    align-items: center;
+    gap : 10px;
+    width: 150px;
+}
+
+.health-header div {
+    font-size: 18px;
+}
+
+.workout-record-div {
+    display: flex;
+    /* align-items: center; */
+    /* margin-left: 1px; */
+    margin-right: 10px;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); */
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+    border-radius: 5px;
+}
+.workout-record-div-button{
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10px; */
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background-color: rgb(31, 115, 171);
+    border: 1px solid rgb(31, 115, 171);
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.workout-complete-button {
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background-color: rgb(34, 139, 34);
+    border: 1px solid rgb(34, 139, 34);
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+
+.health-rule{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 139, 34);
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 30px 10px;
+    font-size: 18px;
+}

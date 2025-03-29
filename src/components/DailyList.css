@@ -1,0 +1,230 @@
+/* .DiaryList {
+    overflow-x: auto;
+} */
+
+.DiaryList .menu_bar {
+  margin: 5px 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  height: 40px;
+  /* margin-left: 10px; */
+}
+.DiaryList .menu_bar select {
+  background-color:  RGB(236,236,236);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 7px;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* 클릭 가능한 커서 스타일 */
+  transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.DiaryList .menu_bar button {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 17px;
+  white-space: nowrap;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+  flex: 1;
+}
+
+.DiaryList .menu_bar .year_write_button{
+  height: 100%;
+  background-color: rgb(83, 171, 208);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.DiaryList .menu_bar .daily_write_button{
+  height: 100%;
+  background-color: rgb(89, 196, 125);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 10px; */
+}
+.DiaryList .menu_bar img{
+  margin-right: 5%;
+}
+
+.list_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.list_item { /*유하 50퍼센트트*/
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position : relative;
+}
+
+.jjang_son {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 80px;
+  height: 80px;
+  margin: 10px 20px 0px 10px;
+  border-radius: 20px;
+  margin-left: 17%;
+}
+
+.jjang_temp {
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px 0px 0px;
+  border-radius: 20px;
+}
+
+.scrolling-text-container {
+  border-top: 2px solid rgb(226, 226, 226);
+  border-bottom: 2px solid rgb(226, 226, 226);
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: 'pre';
+  /* margin-bottom: 4px; */
+  /* margin-top: 7px; */
+}
+.scrolling-text-container-spetial {
+  border-bottom: 2px solid rgb(226, 226, 226);
+  /* border: 1px solid red; */
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 4px; */
+  /* margin-top: 7px; */
+}
+
+.scrolling-text {
+  max-width: 300px;
+  display: inline-block;
+  animation: scroll-right 10s steps(1) infinite;
+  animation: scroll-right 10s linear infinite;
+  font-size: 15px;
+  /* font-weight: bold; */
+  color: #200a4e;
+  padding-left: 15%;
+}
+
+.scrolling-text1 {
+  max-width: 300px;
+  display: inline-block;
+  animation: scroll-right1 10s steps(1) infinite;
+  animation: scroll-right1 10s linear infinite;
+  font-size: 15px;
+  /* font-weight: bold; */
+  color: #a421ad;
+  padding-left: 15%;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right1 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rotating-text {
+  color: rgb(118, 166, 206);
+  display: inline-block;
+  animation: rotate-clockwise 2s infinite linear;
+}
+
+@keyframes rotate-clockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.gradeDiv{
+  display: flex;
+  right:7%;
+  margin: 2% 1%;
+  /* padding : 0.5%; */
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(255, 255, 255); /* 기본 배경색을 하얀색으로 설정 */
+  opacity: 1;
+  border: none;
+  width: 30px;
+  height: 34px;
+  border-radius: 6px; /* 모서리를 둥글게 */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s; 
+  position: absolute;
+  right: 13.4%;
+}
+
+
+
+
+/*   
+  .scrolling-text {
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1); 
+  } */
+
+  .FlowClock{
+    /* padding-top: 1%; */
+    /* margin-top: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu_bar_select {
+    width: 69.33px;
+    height: 38px;
+  }

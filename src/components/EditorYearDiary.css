@@ -1,0 +1,131 @@
+.diary_EditorYear .diary_add_complete_div{
+    /* border : 1px black solid; */
+    display: flex;
+    align-items: end;
+    justify-content: flex-end; 
+    align-items: center;
+    margin: 3% 0%;
+    gap: 5%;
+    padding: 5px 0px;
+    /* width: 100%; */
+}
+.diary_EditorYear .diary_add_complete_div button {
+    height: 15%;
+    padding: 1%;
+    border : none;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.diary_completeButton{
+    white-space: nowrap;
+    width: 17.8%;
+    background-color: rgb(81, 120, 206);
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.diary_plusButton{
+    border-radius: 5px;
+    width: 10%;
+    background-color: #edd1d1;
+    font-size: 18px;
+
+}
+
+.diary_EditorYear section {
+    margin-top: 3%;
+    
+    
+}
+.diary_EditorYear .diary_item_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    gap: 3%;
+}
+
+.diary_item_section textarea{
+    white-space: pre-wrap !important;
+    font-size: 17px;
+    padding-top: 6%;
+    padding-left: 3%;
+    /* line-height: 90%; */
+    resize: none;
+    border-radius: 5px;
+    border : none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+.diary_item_section div{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 42px;
+    width: 30px;
+    background-color: #ffffff;
+    font-size: 18px;
+    /* width: 10%; */
+    border : none;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.diary_item_section.checked div{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #edd1d1;
+    font-size: 18px;
+    height: 42px;
+    width: 30px;
+    /* width: 10%; */
+    border : none;
+    white-space: nowrap;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.diary_Year_Diary_textarea.checked{
+    background-color: #edd1d1;
+}
+.diary_item_section div{
+    height: 47px;
+}
+.diary_item_section img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.diary_yearTempWrapper{
+    margin-top : 40px;
+}
+
+.diary_yearTempTitle{
+    font-size: 17px;
+}
+
+.diary_yearTempMemo{
+    width : 88%;
+    height: 200px;
+    background-color: rgb(236, 235, 240);
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px 17px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    /* 클릭 가능한 커서 스타일 */
+    transition: box-shadow 0.2s, transform 0.2s, background-color 0.2s;
+}
